@@ -1,0 +1,55 @@
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(86, 97, 246, 0.4);
+    border-radius: 20px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: rgba(86, 97, 246, 0.6);
+}
+
+/* Firefox */
+.scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(86, 97, 246, 0.4) transparent;
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 4px 0;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #5661F6;
+    border-radius: 50px;
+    opacity: 0.3;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #5661F6;
+    opacity: 0.6;
+}
+
+/* For Firefox */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #5661F6 transparent;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+    opacity: 0.6;
+}
+
