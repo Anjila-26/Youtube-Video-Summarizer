@@ -1,0 +1,43 @@
+# Core API framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+
+# Data validation
+pydantic==2.10.3
+pydantic-settings==2.8.1
+
+# Environment variables
+python-dotenv==1.0.1
+
+# YouTube download
+yt-dlp>=2024.11.4
+pytube==15.0.0
+
+# Audio processing
+openai-whisper==20231117
+librosa==0.10.2
+moviepy==1.0.3
+ffmpeg-python==0.2.0
+
+# ML/AI libraries
+torch==2.5.1
+torchaudio==2.5.1
+numpy==1.26.4
+
+# LangChain for AI operations (compatible versions)
+langchain==0.3.15
+langchain-community==0.3.15
+langchain-core==0.3.31
+langchain-chroma==0.2.2
+
+# Vector store
+chromadb==0.6.2
+
+# Text processing
+regex==2024.11.6
+
+# OpenTelemetry (compatible versions for chromadb)
+opentelemetry-api==1.28.2
+opentelemetry-sdk==1.28.2
+opentelemetry-exporter-otlp-proto-grpc==1.28.2

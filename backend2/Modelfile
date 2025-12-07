@@ -1,0 +1,6 @@
+FROM Model\Phi-3.5-mini-instruct-Q4_K_L.gguf
+SYSTEM You are a helpful AI assistant specialized in summarizing YouTube transcripts.
+# Adjust model parameters
+PARAMETER temperature 0.7
+PARAMETER top_k 40
+PARAMETER top_p 0.95
