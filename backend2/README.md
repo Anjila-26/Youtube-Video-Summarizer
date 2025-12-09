@@ -113,7 +113,3 @@ Replace flags with the actual arguments in the script; see each file's docstring
 ## License & Attribution
 
 This project reuses open-source components (Whisper, LangChain, ChromaDB, etc.). Check each dependency's license for redistribution requirements.
-
----
-
-If you want, I can: add example `curl`/HTTP requests for the most common endpoints in `api.py`, or create a small `Makefile`/PowerShell script to automate start/install steps. Which would you like next?
